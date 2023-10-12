@@ -1,0 +1,31 @@
+
+/*///////////////////////////////////////////////////////////////////////*/
+/* Condition pour mobile */
+/*//////////////////////////////////////////////////////////////////////////*/
+
+@media (max-width: 640px){
+    :root{
+        --linespace: 8px;
+        --lineheight--double: 54px;
+        --lineheight--triple: 81px;
+    }
+
+    .title--bold{ font-size: 38px;}
+    p{ font-size: 19px;}
+
+    .intro{
+        // padding: 24px;
+
+        h1{ padding-bottom: var(--lineheight--triple);}
+
+        p{   
+            &.pFirst{
+                // margin-bottom: 150px;
+            }
+            &.pSecond{
+                
+            }
+    
+        }
+    }
+}
